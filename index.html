@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My IITB Journey - Faiz Rahman</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div><h1 style="margin: 0;">Faiz @ IIT Bombay</h1></div>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#timeline">Timeline</a>
+      <a href="#learnings">Learnings</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#interactive">Timeline Slider</a>
+      <a href="#guestbook">Guestbook</a>
+    </nav>
+  </header>
+
+  <!-- About -->
+  <section id="about">
+    <h2>About Me</h2>
+    <p>Hi! I'm <strong>Faiz Rahman</strong> from Patna, pursuing Computer Science at IIT Bombay. This website captures my journey — from arriving as a fresher to exploring amazing courses, friends, clubs and events which truly excites me.</p>
+  </section>
+
+  <!-- Timeline -->
+  <section id="timeline">
+    <h2>Timeline Highlights</h2>
+    <div class="timeline">
+      <div class="event"><h3>Day 1</h3><p>First day on campus. Nervous but thrilled!</p></div>
+      <div class="event"><h3>Sem 1</h3><p>Survived CS105 & made friends.</p></div>
+      <div class="event"><h3>Techfest</h3><p>Participate and learn alot and met amazing people.</p></div>
+      <div class="event"><h3>NSS Events</h3><p>Tree plantation, guest lectures which aspires me, teaching and learning with Dhruva.</p></div>
+      <div class="event"><h3>Hostel Memories</h3><p>I made many friends through hostel mess.</p></div>
+      <div class="event"><h3>Sem 2</h3><p>Learned Python, Web-Dev and much more and Survived CS104.</p></div>
+      <div class="event"><h3>Spring Vacation</h3><p>Learning from SoS, SoC and LS and joined NSS Web Team & EnS Team.</p></div>
+    </div>
+  </section>
+
+  <!-- Learnings -->
+  <section id="learnings">
+    <h2>Learnings & Growth</h2>
+    <ul>
+      <li>💻 Technical: C++, Web Dev, Python</li>
+      <li>📘 Favorite Courses: CS105, CS104</li>
+      <li>📊 Credits Completed: 62</li>
+      <li>🌱 Clubs: NSS (Web & EnS)</li>
+    </ul>
+  </section>
+
+  <!-- Photo Gallery -->
+  <section id="gallery">
+    <h2>Photo Gallery</h2>
+    <div class="gallery">
+      <img src="img/iitb.jpg" alt="First Day">
+      <img src="img/garden.jpg" alt="IITB">
+      <img src="img/party1.jpg" alt="Party">
+      <img src="img/party2.jpg" alt="Party">
+    </div>
+  </section>
+
+  <!-- Interactive Slider -->
+  <section id="interactive" class="slider-container">
+    <h2>Timeline Slider</h2>
+    <label for="timelineRange">Slide through my semesters:</label>
+    <input type="range" id="timelineRange" min="1" max="5" value="1" />
+    <p class="slider-output" id="sliderOutput">Day 1: Orientation, Hostel, Rain.</p>
+  </section>
+
+  <!-- Guestbook -->
+  <section id="guestbook" class="form-section">
+    <h2>Guestbook</h2>
+    <form id="guestForm">
+      <label for="name">Your Name:</label>
+      <input type="text" id="name" required />
+
+      <label for="message">Your Message:</label>
+      <textarea id="message" rows="4" required></textarea>
+
+      <button type="submit">Submit</button>
+    </form>
+    <div id="guestMessages"></div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>
+      <a href="https://www.iitb.ac.in" target="_blank">IIT Bombay</a> |
+      <a href="https://www.cse.iitb.ac.in" target="_blank">CSE Department</a> |
+      <a href="https://github.com/FR1029" target="_blank">GitHub</a>
+    </p>
+    <p>© 2025 Faiz Rahman</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
